@@ -1,0 +1,58 @@
+body {
+  background-color: pink;  /* aplicar color de fondo */
+}
+
+h1 {
+  color: palevioletred;  /* aplicar color de texto */
+  font-family: Arial, Helvetica, sans-serif;  /* cambiar la fuente a Arial */
+  margin-top: 20px;  /* aumentar el margen superior a 20px */
+}
+
+p {
+  color: palevioletred;  /* aplicar colores */
+  font-size: 18px;  /* cambiar el tamaño de la fuente a 18px */
+  padding: 10px;  /* agregar un padding de 10px alrededor del contenido */
+
+  border: 1px solid lightcoral;  /* aplicar un borde sólido de 1px de color claro a 1 <p> */
+}
+
+button {
+  background-color: #28a745;  /* cambiar el color de fondo del botón a verde */
+  color: white;  /* cambiar el color del texto a blanco */
+  border-radius: 5px;  /* agregar bordes redondeados de 5px */
+  padding: 10px;  /* agregar padding 10px */
+  width: 100px;  /* aplicar ancho del botón a 100px */
+  margin: 10px 0px;  /* establecer margen ⬆️ e ⬇️ de 10px */
+  border: none;  /* quitar el color del borde */
+}
+
+input, textarea {
+  padding: 5px;  /* agregar padding de 5px */
+  border: none;  /* quitar bordes */
+  margin: 5px 0px;  /* agregar márgenes ⬆️ e ⬇️ de 5px entre cada control */
+}
+
+footer {
+  background-color: lightblue;  /* aplicar color de fondo */
+  color: blueviolet;  /* cambiar color del texto */
+  padding: 20px;  /* agregar padding de 20px */
+  text-align: center;  /* alinear texto al centro */
+}
+
+
+/* Header */
+
+
+nav {
+  background-color: hotpink;  /* aplicar color de fondo */
+  color: blueviolet;  /* aplicar color de texto */
+
+  ul {
+    list-style: none;  /* eliminar las bullets */
+
+    li {
+      padding: 10px;  /* agregar padding 10px */
+      display: inline-block;  /* mostrar los elementos en linea */
+    }
+  }
+}

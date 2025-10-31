@@ -1,0 +1,10 @@
+<div class="movie-card">
+  <h4>{{ movie.title }} ({{ movie.year }})</h4>
+  <img *ngIf="movie.image" [src]="movie.image" [alt]="movie.title">
+
+  <p *ngIf="movie.description.length > 0">
+    {{ movie.description }}
+  </p>
+
+  <button (click)="selectMovie()">Seleccionar</button>
+</div>
